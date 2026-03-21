@@ -12,7 +12,7 @@ This project implements an AI player to play ConnectFour. It also implements a R
 - Contains classes for running all sorts of players- AI, Human, or Random.
 - AI player implementation uses Alpha-Beta Pruning for its move.
 - Since it is not possible to explore all outcomes of all valid moves at a given point in game, Iterative Deepening Search is implemented.
-- A fixed duration of time is alloted to the AI Player, within which it is explored as many depths as possible and return the best move.
+- A fixed duration of time is alloted to the AI Player to make a move, within which it is explored as many depths as possible and return the best move.
 
 ## ConnectFour.py
 - Code for simulating the game on a GUI based board, simulate moves on the board each player makes.
